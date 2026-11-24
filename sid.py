@@ -6,6 +6,6 @@ def digit_sum(n):
 
 
 def lucky_number(n):
-    while n > 10:
+    while n >= 10:
         n = digit_sum(n)
     return n
